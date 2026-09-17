@@ -1,11 +1,11 @@
-/* Alysa Liu background behind the working Xbox One controller */
-.edit {
+/* ALYSA LIU CONTROLLER IMAGE */
+.edit,
+.controller.xbox {
     background-image: url("https://raw.githubusercontent.com/noahhernadez310-lab/alysa-gamepad-skin/refs/heads/main/alysa_gamepad_base_v2_750x630%20%281%29.png") !important;
     background-size: 750px 630px !important;
-    background-position: center !important;
+    background-position: center center !important;
     background-repeat: no-repeat !important;
 }
-
 
 /* STOCK XBOX ONE CONTROL ALIGNMENT */
 
