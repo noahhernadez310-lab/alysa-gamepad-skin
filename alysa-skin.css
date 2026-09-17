@@ -5,3 +5,29 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
+
+
+/* Align all working controls with the Alysa controller */
+.controller {
+    transform: translate(-7px, 12px) !important;
+}
+
+/* Fine-tune ABXY */
+.abxy {
+    transform: translate(-5px, 4px) !important;
+}
+
+/* Fine-tune D-pad */
+.dpad {
+    transform: translate(4px, 3px) !important;
+}
+
+/* Fine-tune analog sticks */
+.sticks {
+    transform: translate(2px, 3px) !important;
+}
+
+/* Fine-tune menu/view buttons */
+.arrows {
+    transform: translate(0px, 4px) !important;
+}
