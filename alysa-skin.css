@@ -1,8 +1,8 @@
-.controller.xbox {
-    background-image: url("https://raw.githubusercontent.com/noahhernadez310-lab/alysa-gamepad-skin/refs/heads/main/alysa_gamepad_base_v2_750x630%20%281%29.png") !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: 750px 630px !important;
-    width: 750px !important;
-    height: 630px !important;
+.controller.custom {
+    background-image: url("https://raw.githubusercontent.com/noahhernadez310-lab/alysa-gamepad-skin/refs/heads/main/alysa_gamepad_base_v2_750x630%20%281%29.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 750px 630px;
+    width: 750px;
+    height: 630px;
 }
