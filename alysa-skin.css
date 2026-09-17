@@ -7,27 +7,62 @@
 }
 
 
-/* Align all working controls with the Alysa controller */
-.controller {
-    transform: translate(-7px, 12px) !important;
+/* STOCK XBOX ONE CONTROL ALIGNMENT */
+
+.controller.xbox {
+    width: 750px !important;
+    height: 630px !important;
+    transform: none !important;
 }
 
-/* Fine-tune ABXY */
+/* ABXY */
 .abxy {
-    transform: translate(3px, -46px) !important;
+    position: absolute !important;
+    left: 488px !important;
+    top: 192px !important;
+    transform: none !important;
 }
 
-/* Fine-tune D-pad */
-.dpad {
-    transform: translate(4px, 3px) !important;
-}
-
-/* Fine-tune analog sticks */
+/* Analog sticks */
 .sticks {
-    transform: translate(2px, 3px) !important;
+    position: absolute !important;
+    left: 144px !important;
+    top: 239px !important;
+    transform: none !important;
 }
 
-/* Fine-tune menu/view buttons */
+/* D-Pad */
+.dpad {
+    position: absolute !important;
+    left: 223px !important;
+    top: 345px !important;
+    transform: none !important;
+}
+
+/* Menu / View buttons */
 .arrows {
-    transform: translate(0px, 4px) !important;
+    position: absolute !important;
+    left: 306px !important;
+    top: 264px !important;
+    transform: none !important;
+}
+
+/* Bumpers */
+.bumpers {
+    position: absolute !important;
+    left: 107px !important;
+    top: 129px !important;
+    width: 536px !important;
+    height: 61px !important;
+    transform: none !important;
+}
+
+/* Triggers */
+.triggers {
+    position: absolute !important;
+    left: 152px !important;
+    top: 0px !important;
+    width: 446px !important;
+    height: 121px !important;
+    transform: none !important;
 }
