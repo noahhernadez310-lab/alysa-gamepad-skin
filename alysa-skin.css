@@ -19,7 +19,7 @@
 
 /* Fine-tune D-pad */
 .dpad {
-    transform: translate(4px, 3px) !important;
+    transform: translate(4px, -55px) !important;
 }
 
 /* Fine-tune analog sticks */
